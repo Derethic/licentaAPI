@@ -1,0 +1,13 @@
+
+{% if users %}
+    <h3>Here are all the users :</h3>
+    <ul>
+        {% for user in users %}
+        <li>
+            <a href="/ads/user/{{ user.id }}">{{ user.name }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+{% else %}
+    <h3>No users in the database :(</h3>
+{% endif %}

@@ -1,0 +1,17 @@
+# create tokens for existing users
+
+from django.contrib.auth.models import User
+from rest_framework.authtoken.models import Token
+
+for user in User.objects.all():
+		Token.objects.get or create(user=user)
+		
+		
+		
+# hashing received password
+from django.contrib.auth.hashers import make_password
+
+hashedPassword = make_password(serializer.validated_data['password'])
+
+# running LOCAL SERVER for access to listen to all available public IPs
+python manage.py runserver 0:8000

@@ -1,0 +1,852 @@
+[
+  {
+    "model": "ads.category",
+    "pk": 1,
+    "fields": {
+      "category_name": "Vehicles"
+    }
+  },
+  {
+    "model": "ads.subcategory",
+    "pk": 1,
+    "fields": {
+      "subcategory_name": "Cars"
+    }
+  },
+  {
+    "model": "ads.subcategory",
+    "pk": 2,
+    "fields": {
+      "subcategory_name":"Motorcycles - Scooters - ATVs"
+    }
+  },
+  {
+    "model": "ads.subcategory",
+    "pk": 3,
+    "fields": {
+      "subcategory_name":"Parts - Consumables - Accessories"
+    }
+  },
+  {
+    "model": "ads.subcategory",
+    "pk": 4,
+    "fields": {
+      "subcategory_name":"Trucks - Boats - Utility"
+    }
+  },
+  {
+    "model": "ads.subcategory",
+    "pk": 5,
+    "fields": {
+      "subcategory_name":"Tires - Rims"
+    }
+  },
+  {
+    "model": "ads.mcateg",
+    "pk": 1,
+    "fields": {
+      "category_id":1,
+      "subcategory_id":1
+    }
+  },
+  {
+    "model": "ads.mcateg",
+    "pk": 2,
+    "fields": {
+      "category_id":1,
+      "subcategory_id":2
+    }
+  },
+  {
+    "model": "ads.mcateg",
+    "pk": 3,
+    "fields": {
+      "category_id":1,
+      "subcategory_id":3
+    }
+  },
+  {
+    "model": "ads.mcateg",
+    "pk": 4,
+    "fields": {
+      "category_id":1,
+      "subcategory_id":4
+    }
+  },
+  {
+    "model": "ads.mcateg",
+    "pk": 5,
+    "fields": {
+      "category_id":1,
+      "subcategory_id":5
+    }
+  },
+  {
+    "model": "ads.category",
+    "pk": 2,
+    "fields": {
+      "category_name": "Housing"
+    }
+  },
+  {
+    "model": "ads.subcategory",
+    "pk": 6,
+    "fields": {
+      "subcategory_name": "Apartments for rent"
+    }
+  },
+  {
+    "model": "ads.subcategory",
+    "pk": 7,
+    "fields": {
+      "subcategory_name":"Apartments for sale"
+    }
+  },
+  {
+    "model": "ads.subcategory",
+    "pk": 8,
+    "fields": {
+      "subcategory_name":"Studio Apartments for rent"
+    }
+  },
+  {
+    "model": "ads.subcategory",
+    "pk": 9,
+    "fields": {
+      "subcategory_name":"Studio Apartments for sale"
+    }
+  },
+  {
+    "model": "ads.subcategory",
+    "pk": 10,
+    "fields": {
+      "subcategory_name":"Houses - Villas for rent"
+    }
+  },
+  {
+    "model": "ads.subcategory",
+    "pk": 11,
+    "fields": {
+      "subcategory_name":"Houses - Villas for sale"
+    }
+  },
+  {
+    "model": "ads.subcategory",
+    "pk": 12,
+    "fields": {
+      "subcategory_name":"Lands"
+    }
+  },
+  {
+    "model": "ads.subcategory",
+    "pk": 13,
+    "fields": {
+      "subcategory_name":"Offices - Commercial spaces"
+    }
+  },
+  {
+    "model": "ads.subcategory",
+    "pk": 14,
+    "fields": {
+      "subcategory_name":"Other"
+    }
+  },
+  {
+    "model": "ads.mcateg",
+    "pk": 6,
+    "fields": {
+      "category_id":2,
+      "subcategory_id":6
+    }
+  },
+  {
+    "model": "ads.mcateg",
+    "pk": 7,
+    "fields": {
+      "category_id":2,
+      "subcategory_id":7
+    }
+  },
+  {
+    "model": "ads.mcateg",
+    "pk": 8,
+    "fields": {
+      "category_id":2,
+      "subcategory_id":8
+    }
+  },
+  {
+    "model": "ads.mcateg",
+    "pk": 9,
+    "fields": {
+      "category_id":2,
+      "subcategory_id":9
+    }
+  },
+  {
+    "model": "ads.mcateg",
+    "pk": 10,
+    "fields": {
+      "category_id":2,
+      "subcategory_id":10
+    }
+  },
+  {
+    "model": "ads.mcateg",
+    "pk": 11,
+    "fields": {
+      "category_id":2,
+      "subcategory_id":11
+    }
+  },
+  {
+    "model": "ads.mcateg",
+    "pk": 12,
+    "fields": {
+      "category_id":2,
+      "subcategory_id":12
+    }
+  },
+  {
+    "model": "ads.mcateg",
+    "pk": 13,
+    "fields": {
+      "category_id":2,
+      "subcategory_id":13
+    }
+  },
+  {
+    "model": "ads.mcateg",
+    "pk": 14,
+    "fields": {
+      "category_id":2,
+      "subcategory_id":14
+    }
+  },
+  {
+    "model": "ads.category",
+    "pk": 3,
+    "fields": {
+      "category_name": "Electronics - Appliances"
+    }
+  },
+  {
+    "model": "ads.subcategory",
+    "pk": 15,
+    "fields": {
+      "subcategory_name":"PCs - Laptops - Peripherals"
+    }
+  },
+  {
+    "model": "ads.subcategory",
+    "pk": 16,
+    "fields": {
+      "subcategory_name":"Cell Phones - Smartphones"
+    }
+  },
+  {
+    "model": "ads.subcategory",
+    "pk": 17,
+    "fields": {
+      "subcategory_name":"Tablets - Gadgets - eReaders"
+    }
+  },
+  {
+    "model": "ads.subcategory",
+    "pk": 18,
+    "fields": {
+      "subcategory_name":"TVs - Audio - Video"
+    }
+  },
+  {
+    "model": "ads.subcategory",
+    "pk": 19,
+    "fields": {
+      "subcategory_name":"Camera - Photo - Video - Accessories"
+    }
+  },
+  {
+    "model": "ads.subcategory",
+    "pk": 20,
+    "fields": {
+      "subcategory_name":"Games - Consoles"
+    }
+  },
+  {
+    "model": "ads.subcategory",
+    "pk": 21,
+    "fields": {
+      "subcategory_name":"Appliances"
+    }
+  },
+  {
+    "model": "ads.subcategory",
+    "pk": 22,
+    "fields": {
+      "subcategory_name":"Desk Equipment"
+    }
+  },
+  {
+    "model": "ads.mcateg",
+    "pk": 15,
+    "fields": {
+      "category_id":3,
+      "subcategory_id":15
+    }
+  },
+  {
+    "model": "ads.mcateg",
+    "pk": 16,
+    "fields": {
+      "category_id":3,
+      "subcategory_id":16
+    }
+  },
+  {
+    "model": "ads.mcateg",
+    "pk": 17,
+    "fields": {
+      "category_id":3,
+      "subcategory_id":17
+    }
+  },
+  {
+    "model": "ads.mcateg",
+    "pk": 18,
+    "fields": {
+      "category_id":3,
+      "subcategory_id":18
+    }
+  },
+  {
+    "model": "ads.mcateg",
+    "pk": 19,
+    "fields": {
+      "category_id":3,
+      "subcategory_id":19
+    }
+  },
+  {
+    "model": "ads.mcateg",
+    "pk": 20,
+    "fields": {
+      "category_id":3,
+      "subcategory_id":20
+    }
+  },
+  {
+    "model": "ads.mcateg",
+    "pk": 21,
+    "fields": {
+      "category_id":3,
+      "subcategory_id":21
+    }
+  },
+  {
+    "model": "ads.mcateg",
+    "pk": 22,
+    "fields": {
+      "category_id":3,
+      "subcategory_id":22
+    }
+  },
+  {
+    "model": "ads.category",
+    "pk": 4,
+    "fields": {
+      "category_name": "Jobs"
+    }
+  },
+  {
+    "model": "ads.subcategory",
+    "pk": 23,
+    "fields": {
+      "subcategory_name":"Jobs in Romania"
+    }
+  },
+  {
+    "model": "ads.subcategory",
+    "pk": 24,
+    "fields": {
+      "subcategory_name":"Jobs Abroad"
+    }
+  },
+  {
+    "model": "ads.mcateg",
+    "pk": 23,
+    "fields": {
+      "category_id":4,
+      "subcategory_id":23
+    }
+  },
+  {
+    "model": "ads.mcateg",
+    "pk": 24,
+    "fields": {
+      "category_id":4,
+      "subcategory_id":24
+    }
+  },
+  {
+    "model": "ads.category",
+    "pk": 5,
+    "fields": {
+      "category_name": "Clothing - Fashion"
+    }
+  },
+  {
+    "model": "ads.subcategory",
+    "pk": 25,
+    "fields": {
+      "subcategory_name":"Clothing"
+    }
+  },
+  {
+    "model": "ads.subcategory",
+    "pk": 26,
+    "fields": {
+      "subcategory_name":"Shoes - Footwear"
+    }
+  },
+  {
+    "model": "ads.subcategory",
+    "pk": 27,
+    "fields": {
+      "subcategory_name":"Accessories and Jewelry"
+    }
+  },
+  {
+    "model": "ads.subcategory",
+    "pk": 28,
+    "fields": {
+      "subcategory_name":"Cosmetics"
+    }
+  },
+  {
+    "model": "ads.mcateg",
+    "pk": 25,
+    "fields": {
+      "category_id":5,
+      "subcategory_id":25
+    }
+  },
+  {
+    "model": "ads.mcateg",
+    "pk": 26,
+    "fields": {
+      "category_id":5,
+      "subcategory_id":26
+    }
+  },
+  {
+    "model": "ads.mcateg",
+    "pk": 27,
+    "fields": {
+      "category_id":5,
+      "subcategory_id":27
+    }
+  },
+  {
+    "model": "ads.mcateg",
+    "pk": 28,
+    "fields": {
+      "category_id":5,
+      "subcategory_id":28
+    }
+  },
+  {
+    "model": "ads.category",
+    "pk": 6,
+    "fields": {
+      "category_name": "House - Garden"
+    }
+  },
+  {
+    "model": "ads.subcategory",
+    "pk": 29,
+    "fields": {
+      "subcategory_name":"Furniture - Decorations"
+    }
+  },
+  {
+    "model": "ads.subcategory",
+    "pk": 30,
+    "fields": {
+      "subcategory_name":"Garden - Trees - Plants"
+    }
+  },
+  {
+    "model": "ads.subcategory",
+    "pk": 31,
+    "fields": {
+      "subcategory_name":"Renovations - Building - DIY"
+    }
+  },
+  {
+    "model": "ads.subcategory",
+    "pk": 32,
+    "fields": {
+      "subcategory_name":"Electricity - Conditioning"
+    }
+  },
+  {
+    "model": "ads.subcategory",
+    "pk": 33,
+    "fields": {
+      "subcategory_name":"Housekeeping - Household"
+    }
+  },
+  {
+    "model": "ads.mcateg",
+    "pk": 29,
+    "fields": {
+      "category_id":6,
+      "subcategory_id":29
+    }
+  },
+  {
+    "model": "ads.mcateg",
+    "pk": 30,
+    "fields": {
+      "category_id":6,
+      "subcategory_id":30
+    }
+  },
+  {
+    "model": "ads.mcateg",
+    "pk": 31,
+    "fields": {
+      "category_id":6,
+      "subcategory_id":31
+    }
+  },
+  {
+    "model": "ads.mcateg",
+    "pk": 32,
+    "fields": {
+      "category_id":6,
+      "subcategory_id":32
+    }
+  },
+  {
+    "model": "ads.mcateg",
+    "pk": 33,
+    "fields": {
+      "category_id":6,
+      "subcategory_id":33
+    }
+  },
+  {
+    "model": "ads.category",
+    "pk": 7,
+    "fields": {
+      "category_name": "Mother & Baby"
+    }
+  },
+  {
+    "model": "ads.subcategory",
+    "pk": 34,
+    "fields": {
+      "subcategory_name":"Clothing - Footwear - Accessories"
+    }
+  },
+  {
+    "model": "ads.subcategory",
+    "pk": 35,
+    "fields": {
+      "subcategory_name":"Food - Hygiene"
+    }
+  },
+  {
+    "model": "ads.subcategory",
+    "pk": 36,
+    "fields": {
+      "subcategory_name":"Outdoor - Toys"
+    }
+  },
+  {
+    "model": "ads.subcategory",
+    "pk": 37,
+    "fields": {
+      "subcategory_name":"Baby Room - School"
+    }
+  },
+  {
+    "model": "ads.subcategory",
+    "pk": 38,
+    "fields": {
+      "subcategory_name":"Other"
+    }
+  },
+  {
+    "model": "ads.mcateg",
+    "pk": 34,
+    "fields": {
+      "category_id":7,
+      "subcategory_id":34
+    }
+  },
+  {
+    "model": "ads.mcateg",
+    "pk": 35,
+    "fields": {
+      "category_id":7,
+      "subcategory_id":35
+    }
+  },
+  {
+    "model": "ads.mcateg",
+    "pk": 36,
+    "fields": {
+      "category_id":7,
+      "subcategory_id":36
+    }
+  },
+  {
+    "model": "ads.mcateg",
+    "pk": 37,
+    "fields": {
+      "category_id":7,
+      "subcategory_id":37
+    }
+  },
+  {
+    "model": "ads.mcateg",
+    "pk": 38,
+    "fields": {
+      "category_id":7,
+      "subcategory_id":38
+    }
+  },
+  {
+    "model": "ads.category",
+    "pk": 8,
+    "fields": {
+      "category_name": "Business - Services"
+    }
+  },
+  {
+    "model": "ads.subcategory",
+    "pk": 39,
+    "fields": {
+      "subcategory_name":"Services"
+    }
+  },
+  {
+    "model": "ads.subcategory",
+    "pk": 40,
+    "fields": {
+      "subcategory_name":"Business - Professional Equipment"
+    }
+  },
+  {
+    "model": "ads.subcategory",
+    "pk": 41,
+    "fields": {
+      "subcategory_name":"Medical Equipment"
+    }
+  },
+  {
+    "model": "ads.mcateg",
+    "pk": 39,
+    "fields": {
+      "category_id":8,
+      "subcategory_id":39
+    }
+  },
+  {
+    "model": "ads.mcateg",
+    "pk": 40,
+    "fields": {
+      "category_id":8,
+      "subcategory_id":40
+    }
+  },
+  {
+    "model": "ads.mcateg",
+    "pk": 41,
+    "fields": {
+      "category_id":8,
+      "subcategory_id":41
+    }
+  },
+  {
+    "model": "ads.category",
+    "pk": 9,
+    "fields": {
+      "category_name": "Animals - Agriculture - Industry"
+    }
+  },
+  {
+    "model": "ads.subcategory",
+    "pk": 42,
+    "fields": {
+      "subcategory_name":"Pets"
+    }
+  },
+  {
+    "model": "ads.subcategory",
+    "pk": 43,
+    "fields": {
+      "subcategory_name":"Domestic Animals & Birds"
+    }
+  },
+  {
+    "model": "ads.subcategory",
+    "pk": 44,
+    "fields": {
+      "subcategory_name":"Agricultural Equipment - Industry"
+    }
+  },
+  {
+    "model": "ads.subcategory",
+    "pk": 45,
+    "fields": {
+      "subcategory_name":"Food"
+    }
+  },
+  {
+    "model": "ads.subcategory",
+    "pk": 46,
+    "fields": {
+      "subcategory_name":"Other"
+    }
+  },
+  {
+    "model": "ads.mcateg",
+    "pk": 42,
+    "fields": {
+      "category_id":9,
+      "subcategory_id":42
+    }
+  },
+  {
+    "model": "ads.mcateg",
+    "pk": 43,
+    "fields": {
+      "category_id":9,
+      "subcategory_id":43
+    }
+  },
+  {
+    "model": "ads.mcateg",
+    "pk": 44,
+    "fields": {
+      "category_id":9,
+      "subcategory_id":44
+    }
+  },
+  {
+    "model": "ads.mcateg",
+    "pk": 45,
+    "fields": {
+      "category_id":9,
+      "subcategory_id":45
+    }
+  },
+  {
+    "model": "ads.mcateg",
+    "pk": 46,
+    "fields": {
+      "category_id":9,
+      "subcategory_id":46
+    }
+  },
+  {
+    "model": "ads.category",
+    "pk": 10,
+    "fields": {
+      "category_name": "Sport - Hobby - Free Time"
+    }
+  },
+  {
+    "model": "ads.subcategory",
+    "pk": 47,
+    "fields": {
+      "subcategory_name":"Sport Equipment - Free Time"
+    }
+  },
+  {
+    "model": "ads.subcategory",
+    "pk": 48,
+    "fields": {
+      "subcategory_name":"Books - Magazines - Movies"
+    }
+  },
+  {
+    "model": "ads.subcategory",
+    "pk": 49,
+    "fields": {
+      "subcategory_name":"Music - Musical Instruments"
+    }
+  },
+  {
+    "model": "ads.subcategory",
+    "pk": 50,
+    "fields": {
+      "subcategory_name":"Collectibles - Antiquities"
+    }
+  },
+  {
+    "model": "ads.subcategory",
+    "pk": 51,
+    "fields": {
+      "subcategory_name":"Tourism - Accommodation"
+    }
+  },
+  {
+    "model": "ads.subcategory",
+    "pk": 52,
+    "fields": {
+      "subcategory_name":"Bicycles & Accessories"
+    }
+  },
+  {
+    "model": "ads.mcateg",
+    "pk": 47,
+    "fields": {
+      "category_id":10,
+      "subcategory_id":47
+    }
+  },
+  {
+    "model": "ads.mcateg",
+    "pk": 48,
+    "fields": {
+      "category_id":10,
+      "subcategory_id":48
+    }
+  },
+  {
+    "model": "ads.mcateg",
+    "pk": 49,
+    "fields": {
+      "category_id":10,
+      "subcategory_id":49
+    }
+  },
+  {
+    "model": "ads.mcateg",
+    "pk": 50,
+    "fields": {
+      "category_id":10,
+      "subcategory_id":50
+    }
+  },
+  {
+    "model": "ads.mcateg",
+    "pk": 51,
+    "fields": {
+      "category_id":10,
+      "subcategory_id":51
+    }
+  },
+  {
+    "model": "ads.mcateg",
+    "pk": 52,
+    "fields": {
+      "category_id":10,
+      "subcategory_id":52
+    }
+  }
+]
